@@ -1,0 +1,22 @@
+# Local provider plugins (re-created by terraform init)
+.terraform/
+ 
+# State files can contain resource IDs and sensitive values: never commit them
+*.tfstate
+*.tfstate.*
+ 
+# Saved plan files and crash logs
+*.tfplan
+crash.log
+crash.*.log
+ 
+# Variable files often hold environment-specific or secret values
+*.tfvars
+*.tfvars.json
+ 
+# Local CLI configuration
+.terraformrc
+terraform.rc
+ 
+# Note: .terraform.lock.hcl is intentionally NOT ignored.
+# Commit it so everyone uses the same provider version.
